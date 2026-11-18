@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 int main()
@@ -36,7 +35,6 @@ int main()
             }
 
         // PATTERN GENERATOR
-
         if (choice == 1)
         {
             printf("\n");
@@ -195,7 +193,7 @@ int main()
             }    
         }
 
-        
+        // Grade Calculator
         else if (choice == 3)
         {
             float prelim, midterm, prefinal, final, total, average;
@@ -267,7 +265,7 @@ int main()
             {
                 printf("Enter a single word: ");
                 scanf("%49s", word);
-                while (getchar() != '\n');      // clear anythxing left on the line
+                while (getchar() != '\n');     
  
                 length = strlen(word);
 
@@ -313,7 +311,6 @@ int main()
         }
 
         // TRY AGAIN QUESTION
-
         printf("\nDo you want to try another operation? (Y/N): ");
         scanf(" %c", &again);
         printf("\n");
